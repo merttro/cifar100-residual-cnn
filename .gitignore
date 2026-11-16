@@ -1,0 +1,22 @@
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Downloaded datasets and trained checkpoints
+data/
+*.pth
+*.pt
+*.ckpt
+
+# Local editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets
+.env
+.env.*
+!.env.example
