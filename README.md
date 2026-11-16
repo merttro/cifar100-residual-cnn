@@ -117,7 +117,7 @@ Cifar100/
 └── README.md
 ```
 
-The dataset files, virtual environment, and trained model checkpoints are excluded from version control.
+The dataset files and virtual environment are excluded from version control. The trained checkpoints `best_model.pth` and `cifar100_model.pth` are included in this repository. Evaluation loads `best_model.pth` by default.
 
 ## Getting Started
 

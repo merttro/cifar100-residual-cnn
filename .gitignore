@@ -7,6 +7,8 @@ __pycache__/
 # Downloaded datasets and trained checkpoints
 data/
 *.pth
+!best_model.pth
+!cifar100_model.pth
 *.pt
 *.ckpt
 
